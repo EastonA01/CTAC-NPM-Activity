@@ -4,7 +4,7 @@
   "description": "A formal activity in learning the ins and outs of NPM",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/EastonA01/CTAC-NPM-Activity/issues"
   },
-  "homepage": "https://github.com/EastonA01/CTAC-NPM-Activity#readme"
+  "homepage": "https://github.com/EastonA01/CTAC-NPM-Activity#readme",
+  "dependencies": {
+    "moment": "^2.30.1"
+  }
 }
